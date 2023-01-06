@@ -28,7 +28,6 @@ export default function ProductScreen() {
   };
   return (
     <Layout title={product.name}>
-      <h1>{product.name}</h1>
       <div className="py-2">
         <Link href="/">back to products</Link>
       </div>
